@@ -19,7 +19,7 @@ https://github.com/ggpwr/posmotri_v_okno
 
 ## Автор
 
-- Github - [https://github.com/ggpwr/posmotri_v_okno)
+- Github - [Евгений Кочетков)(https://github.com/ggpwr)
 
 
 ## Благодарность
