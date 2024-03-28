@@ -16,10 +16,11 @@ https://github.com/ggpwr/posmotri_v_okno
 ### Описание
 
 Данное приложение позволяет "выглянуть" из окон самых разных городов мира.
+Были решены задачи стилизации готовой вёрстки и отображения js-скрипта.
 
 ## Автор
 
-- Github - [https://github.com/ggpwr/posmotri_v_okno)
+- Github - [Евгений Кочетков](https://github.com/ggpwr)
 
 
 ## Благодарность
