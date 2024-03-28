@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -53,7 +56,6 @@ ol {
   width: 1140px;
   block-size: 540px;
   gap: 30px;
-  margin: 133px 30px; 
 }
 
 .result { 
@@ -66,13 +68,13 @@ ol {
 .result__video-container {
   width: 711px;
   height: 100%;
+  margin-top: 78px;
   position: relative;
   margin-bottom: auto;
 }
 
 .result__video {
   width: 100%;
-  margin-top: 78px;
   object-fit: cover;
 }
 
