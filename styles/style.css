@@ -169,14 +169,10 @@ input {
 }
 
 input:focus {
-  outline: 1px white solid;
-  outline-offset: 1px;
+ outline: none;
+ border: none; 
 }
 
-input:active {
-  border: 1px white solid;
-  outline: transparent;
-}
 
 .title {
   font-family: Oswald, Arial, sans-serif;;
@@ -201,17 +197,8 @@ input:active {
 .content__list {
   position: relative;
   height: 300px;
-  width: 395px;
-  overflow: auto;
-
-}
-
-.content__list-item {
-  block-size: 107px;
-}
-
-.content__list::-webkit-scrollbar {
-  display: none;
+  width: 399px;
+  overflow-y: scroll;
 }
 
 
@@ -220,7 +207,6 @@ input:active {
   width: 100%;
   display: block;
   color: inherit;
-  margin: 2px;
 }
 
 
@@ -271,6 +257,10 @@ input:active {
   line-height: 16.2px;
   color: white;
   inline-size: 200px;
+}
+
+.content__video-card-description-container {
+  min-width: 0;
 }
 
 li:not(:last-child) {
